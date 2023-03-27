@@ -1,0 +1,25 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "ProofOfCreditWorthiness": {
+          "@id": "https://raw.githubusercontent.com/Spectral-Finance/spectral-polygon-id-schemas/main/credential-schema/proof-of-credit-worthiness/proof-of-credit-worthiness.jsonld#ProofOfCreditWorthiness",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://github.com/Spectral-Finance/spectral-polygon-id-schemas/blob/main/credential-schema/proof-of-credit-worthiness/proof-of-credit-worthiness-vocab.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "macroScore": {
+              "@id": "vocab:macroScore",
+              "@type": "xsd:integer"
+            }
+          }
+        }
+      }
+    ]
+  }
